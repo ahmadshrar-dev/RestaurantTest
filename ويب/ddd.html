@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<script>
+    function change1() {
+        document.getElementById("Change_image").innerHTML = '<img src="asd01.jpg" >';
+    }
+
+    function change2() {
+        document.getElementById("Change_image").innerHTML = '<img src="asd06.jpg" >';
+    }
+
+    function change3() {
+        document.getElementById("Change_image").innerHTML = '<img src="asd04.jpg" >';
+    }
+</script>
+
+<body>
+    <a onclick="change1()">
+        <button>Image 1</button>
+    </a>
+    <a onclick="change2()">
+        <button>Image 2</button>
+    </a>
+    <a onclick="change3()">
+        <button>Image 3</button>
+    </a>
+
+    <div id="Change_image"></div>
+</body>
+
+
+</html>
